@@ -35,4 +35,4 @@ app.use("/api/news", newsRoutes); // News management routes (CRUD operations)
 const PORT = process.env.PORT || 5000;
 
 // Start the Express server and listen for incoming requests
-app.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
